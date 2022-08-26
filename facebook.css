@@ -1,0 +1,646 @@
+body{
+    background-color: aliceblue;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    float: left;
+    font-size: 25px;
+    padding-left: 14px;
+    color: royalblue;
+}
+.cont{
+  
+    height: 40px;
+    width: 10%;
+    background-color:#CCCCCC;;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 34px;
+    position: absolute;
+    left: 77px;
+}
+.magnify{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: larger;
+    color: grey;
+    margin-top: 1px;
+}
+.fa-magnifying-glass{
+  
+    font-size: 20px;
+}
+ .active{
+    width:15%;
+}
+#text1{
+    margin-left: 40px;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    outline: none;
+}
+nav{
+  background-color:#fff;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+    
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  
+
+}
+nav ul li {
+    padding: 10px;
+    line-height: 20px;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: royalblue;
+}
+.activ  ,nav ul li:hover{
+    color: royalblue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.fa-house{
+    font-size: 25px;
+    margin: 14px;
+
+}
+.fa-tv{
+    font-size: 25px;
+    margin: 14px;
+}
+.fa-store{
+    font-size: 25px;
+    margin: 14px;
+}
+.fa-people-group{
+    font-size: 25px;
+    margin: 14px;
+}
+.fa-gamepad{
+    font-size: 25px;
+    margin: 14px;
+}
+.lot{
+    float: right;
+    font-size: 25px;
+    position: fixed;
+    left: 80%;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.fa-ellipsis{
+    margin: 14px;
+}
+.fa-comment{
+    margin: 14px;
+}
+.fa-bell{
+    margin: 14px;
+}
+.fa-ellipsis:hover{
+    color: royalblue;
+}
+.fa-comment:hover{
+    color: royalblue;
+}
+.fa-bell:hover{
+    color: royalblue;
+}
+.list2{
+ display: flex;
+ justify-content: left;
+ width: 20%;
+ height: 100vh;
+ background-color: #fff;
+ float: left;
+ text-align: justify;
+ overflow-y: scroll;
+ border-radius: 6px;
+
+ 
+
+}
+
+.vor{
+   display: none;
+}
+.avtr{
+  display: block;
+  height: 100vh;
+}
+
+
+.list2 ul li {
+    font-size: 20px;
+    list-style: none;
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    float:left ;
+    cursor: pointer;
+  
+
+}
+
+
+.list2 ul {
+display: block;
+float: left;
+
+
+}
+
+p{
+    display: inline-block;
+    margin-left: 10px;
+}
+.list2 ul li:hover{
+    background-color: royalblue;
+    border-radius: 6px;
+}
+.third{
+    display: inline-block;
+    height: 100vh;
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    border-radius: 6px;
+    overflow-y: scroll;
+ 
+}
+.third::-webkit-scrollbar{
+    display: none;
+}
+.box{
+    height: 25vh;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+.box2{
+    display: inline-block;
+    height: 5vh;
+    width: 90%;
+    background-color: aliceblue;
+    border-radius: 14px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: larger;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    margin-top: 4%;
+}
+.para{
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.alert{
+    height: 50vh;
+    width: 40%;
+    background-color:#fff;
+    border-radius: 6px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    display: none;
+ }
+#text5{
+    border: none;
+    background: none;
+    width: 90%;
+    height: 20vh;
+    font-size: 25px;
+    
+  
+   
+}
+#text5::-webkit-scrollbar{
+    display: none;
+}
+.logoss{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 5%;
+    cursor: pointer;
+    width: 90%
+    
+    
+}
+.fa-star:hover{
+ color: royalblue;
+}
+.fa-compass:hover{
+    color: royalblue;
+}
+.fa-face-smile:hover{
+    color: royalblue;
+}
+.fa-user:hover{
+    color: royalblue;
+}
+.fa-line:hover{
+    color: royalblue;
+}
+#submit{
+    margin-top: 5%;
+    height: 5vh;
+    width: 90%;
+    background-color: royalblue;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#submit:hover{
+    background-color: darkblue;
+    color: #fff;
+}
+.avtr{
+    display: block;
+}
+.nothing{
+    display: inline-block;
+    height: 6vh;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 14px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: larger;
+    cursor: pointer;
+    
+}
+.border{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    width: 40%;
+    border-radius: 16px;
+    border-color: plum;
+    border-style: solid;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.iconss{
+    margin-top: 5px;
+}
+.accounts{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    width: 10%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: plum;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.acctt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.maincontent{
+    display: inline-block;
+    height: 90vh;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 14px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: larger;
+    
+}
+.maccounts{
+    display: inline-block;
+    float: left;
+    height: 50px;
+    width: 10%;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: plum;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.mainheader{
+    display: inline-block;
+    float: left;
+    margin-left: 2px;
+    margin-top: -20px;
+    font-size: 20px;
+    
+}
+.paragraphh{
+    font-size: 15px;
+    margin-top: -35px;
+}
+
+.nvrr{
+    margin-top: 5%;
+    display: block;
+}
+.like{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.maincontent2{
+    display: inline-block;
+    height: 80vh;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 14px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: larger;
+}
+.color{
+    color: royalblue;
+}
+.colo{
+    color: royalblue;
+}
+.forth{
+    display: inline-block;
+    float: right;
+    height: 100vh;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow-y: scroll;
+}
+.forth::-webkit-scrollbar{
+    display: none;
+}
+.contactlogo{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 5px;
+}
+.pp{
+    margin-top: -8%;
+}
+.contactlo{
+    display: inline-block;
+    float: right;
+    margin-top: 20%;
+    margin-right: 5%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.fa-video{
+    margin-right: 5px;
+}
+.fa-video:hover{
+    color: royalblue;
+}
+.fa-searchengin:hover{
+    color: royalblue;
+}
+
+.chamber{
+    display: inline-block;
+    margin-left: 10px;
+    float: left;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.real ul li{
+    font-size: 20px;
+    list-style: none;
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    float:left ;
+    cursor: pointer;
+  
+}
+#ans2{
+   
+    margin-right: 80%;
+   
+}
+#typ{
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+ 
+}
+.an{
+    margin-top: 15px;
+    display: block;
+}
+#tt{
+    margin-top: 9%;
+}
+#ans3{
+   
+    margin-right: 80%;
+   
+}
+#ans4{
+   
+    margin-right: 80%;
+   
+}
+#ans5{
+   
+    margin-right: 80%;
+   
+}
+#ans6{
+   
+    margin-right: 80%;
+   
+}
+.real ul li:hover{
+    background-color: royalblue;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:975px) {
+ 
+    .active{
+        width: 30%;
+    }
+    #text1{
+        width: 50%;
+        margin-left: 20px;
+    }
+    .cont{
+        position: fixed;
+
+        top: 3.5%;
+    }
+    .fa-bars{
+        color: black;
+        float:right;
+        font-weight: 900;
+        font-size: 30px;
+        position: absolute;
+        top: 4%;
+        right: 5%;
+        width: 40px;
+        cursor: pointer;
+    }
+    nav{
+        padding: 0;
+    }
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: -1000px;
+        transition: 0.5s;
+        background-color: #e9ecf1;
+    }
+    nav ul li{
+        margin: 40px auto;
+        display: flex;
+    
+        width: 100%;
+        
+       
+
+    }
+    .lot{
+        flex-direction: row;
+        float:left;
+        font-weight: 900;
+        font-size: 25px;
+        position: absolute;
+        top: 25%;
+        left: 45%;
+    }
+    .menu{
+        margin-top: 10px;
+    }
+    .second{
+        width: 100%;
+      
+        
+    }
+    .list2{
+        width: 100%;
+        height: 100vh;
+        margin-top: -1000px;
+        transition: 0.5s;
+     
+       
+    }
+ 
+ 
+    .avt{
+        margin-top: 10px;
+    }
+    .third{
+        width: 100%;
+        margin-left: 0;
+    }
+    .alert{
+        height: 45vh;
+        width: 70%;
+        position: absolute;
+        left: 14%;
+    }
+    .border{
+        height: 40px;
+        width: 50%;
+    }
+    .accounts{
+        margin-top: 10px;
+        border-radius: 30px;
+        width: 30px;
+    }
+    .maccounts{
+        width: 48px;
+    }
+    .maincontent{
+        height: 55vh;
+    }
+    .images{
+        height: 50px;
+    }
+    .img{
+      height: fit-content;
+    }
+    .maincontent2{
+        height: 75vh;
+    }
+    .forth{
+        width: 100%;
+        height: 100vh;
+       display: none;
+        transition: 0.5s;
+    }
+    .contactlo{
+        margin-top: 15%;
+    }
+    .co{
+        display: block;
+        margin-top: -900px;
+    }
+    #tt{
+        margin-top: 10px;
+    }
+ 
+  
+   
+   
+   
+
+}
